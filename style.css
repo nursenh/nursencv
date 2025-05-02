@@ -1,0 +1,83 @@
+:root {
+    --primary-color: #1e3d59;      /* Tünd göy – əsas yazı və fon üçün */
+    --secondary-color: #6c7a89;    /* Yumşaq boz – əlavə yazılar üçün */
+    --accent-color: #4aa3df;       /* Sakit mavi – vurğulama üçün */
+    --background-color: #fefefe;   /* Ümumi fon üçün sadə ağ */
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: var(--accent-color);
+    border-left: 4px solid var(--accent-color);
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.education-item .date {
+    font-style: italic;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.skills-list,
+#skills {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.skills-list li,
+#skills li {
+    margin-bottom: 6px;
+}
+
+button {
+    margin: 5px 0;
+    padding: 7px 14px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #2b7ab8;
+}
+
+.contact-info {
+    background-color: #e6f3fc;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+}
